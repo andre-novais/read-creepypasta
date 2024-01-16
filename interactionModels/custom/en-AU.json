@@ -1,0 +1,92 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "factType",
+              "type": "FactType"
+            }
+          ],
+          "name": "GetNewFactIntent",
+          "samples": [
+            "a fact",
+            "a {factType} fact",
+            "tell me a fact",
+            "tell me a {factType} fact",
+            "give me a fact",
+            "tell me trivia",
+            "tell me a {factType} trivia",
+            "give me trivia",
+            "give me a {factType} trivia",
+            "give me some information",
+            "give me some {factType} information",
+            "tell me something",
+            "give me something"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "factType",
+              "type": "FactType"
+            }
+          ],
+          "name": "AddNewFact",
+          "samples": [
+            "add {factType} as a new topic",
+            "save {factType} as a new topic",
+            "add {factType} as favorite topic",
+            "save {factType} as favorite topic",
+            "add {factType} as a favorite fact topic",
+            "save {factType} as a favorite fact topic"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Space"
+              }
+            },
+            {
+              "name": {
+                "value": "Soccer"
+              }
+            },
+            {
+              "name": {
+                "value": "Football"
+              }
+            }
+          ],
+          "name": "FactType"
+        }
+      ],
+      "invocationName": "change me"
+    }
+  }
+}
