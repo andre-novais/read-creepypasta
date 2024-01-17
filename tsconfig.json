@@ -10,7 +10,8 @@
     "outDir": "build/",
     "noUnusedLocals": false,
     "noUnusedParameters": false,
-    "allowSyntheticDefaultImports": true      
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true
   }, 
     "include": [
       "lambda/**/*.ts"

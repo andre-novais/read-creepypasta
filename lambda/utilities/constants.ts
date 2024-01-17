@@ -11,7 +11,8 @@ export enum IntentTypes {
   Cancel = 'AMAZON.CancelIntent',
   Fallback = 'AMAZON.FallbackIntent',
   HelloWorld = 'HelloWorldIntent',
-  GetNewFact = 'GetNewFactIntent'
+  GetNewFact = 'GetNewFactIntent',
+  ReadCreepyPasta = 'ReadCreepyPasta'
 }
 
 export enum LocaleTypes {
